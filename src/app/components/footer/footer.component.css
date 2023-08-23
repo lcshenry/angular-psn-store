@@ -1,0 +1,40 @@
+.container{
+  background-color: #0070D1;
+  max-width: 1400px;
+  width: auto;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.media{
+  display: flex;
+  gap: 20px;
+}
+
+.media a{
+  text-decoration: none;
+  color: white;
+}
+
+.media a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.text a{
+  text-decoration: none;
+  color: white;
+}
+
+.text a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.text{
+  color: white;
+}

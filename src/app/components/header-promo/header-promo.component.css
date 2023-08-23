@@ -1,0 +1,73 @@
+.container{
+  max-width: 1400px;
+
+  margin: auto;
+}
+
+.container-image img{
+  width: 350px;
+  height: 350px;
+}
+
+.container-image{
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgb(209, 82, 82);
+}
+
+.container-text{
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: gray;
+  max-width: 1400px;
+  height: 100px;
+  background-color: white;
+  font-weight: lighter;
+  margin: auto;
+}
+
+.container-text button{
+  background-color: #0070D1;
+  width: 150px;
+  height: 30px;
+  border-radius: 99px;
+  color: white;
+  border: none;
+}
+
+.container-text button:hover{
+  background-color: #0d79d8;
+  cursor: pointer;
+}
+
+.card-promo__container{
+  margin: auto;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.text-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px ;
+}
+
+.text-more a{
+  text-decoration: none;
+  color: #0070D1;
+}
+
+.text-more a:hover{
+  text-decoration: none;
+  color: #0d79d8;
+}

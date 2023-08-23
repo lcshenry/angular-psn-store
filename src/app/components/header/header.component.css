@@ -1,0 +1,117 @@
+.header-container{
+  background-color: white;
+  max-width: 1400px;
+  height: 130px;
+  margin-top: 5px;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.header-principal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.logo{
+  margin-right: 10px;
+}
+.menu-um{
+  display: flex;
+  align-items: center;
+}
+
+.menu-um ul{
+  display: flex;
+  gap: 15px;
+}
+
+.menu-um ul li{
+  list-style: none;
+}
+
+.menu-um ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.menu-um ul li a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #0070D1;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.menu-dois{
+  display: flex;
+  gap: 5px;
+}
+
+.menu-dois button{
+  background-color: #0070D1;
+  width: 150px;
+  height: 30px;
+  border-radius: 99px;
+  color: white;
+  border: none;
+}
+
+.menu-dois button:hover{
+  background-color: #0d79d8;
+  cursor: pointer;
+}
+
+.menu-dois input{
+  background-color: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 99px;
+  color: gray;
+  border: 1px solid gray;
+  outline: none;
+  padding-left: 5px;
+}
+
+.lupa{
+  width: 1px;
+  height: 1px;
+}
+
+.menu-tres{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.menu-tres ul{
+  display: flex;
+  gap: 15px;
+}
+
+.menu-tres ul li{
+  list-style: none;
+}
+
+.menu-tres ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.menu-tres ul li a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #0070D1;
+  padding: 8px;
+  border-radius: 10px;
+}
+.logo-dois{
+  margin-right: 10px;
+  color: #0d79d8;
+}
